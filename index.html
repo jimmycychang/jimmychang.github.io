@@ -1,21 +1,296 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Jimmy Chang</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Chang Porfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
 </head>
-
 <body>
-    <div class="banner">
-        <div class="navbar">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href='#'>Skills</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        </div>
+    <!-- Navbar start -->
+    <div class="dropdown fixed-top">
+        <button class="btn btn-secondary px-3 bg-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu end">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#experience">Experience</a></li>
+            <li><a class="dropdown-item" href="#education">Education</a></li>
+            <li><a class="dropdown-item" href="#projects">Projects</a></li>
+            <li><a class="dropdown-item" href="#skills">Skills</a></li>
+            <!-- <li><a class="dropdown-item" href="#contact">Contact</a></li> -->
+        </ul>
     </div>
+    <div class="header">
+        <ul class="header justify-content-center">
+            <li><a class="fw-bold fs-5 me-2" href="#experience">Experience</a></li>
+            <li><a class="fw-bold fs-5 me-2" href="#education">Education</a></li>
+            <li><a class="fw-bold fs-5 me-2" href="#projects">Projects</a></li>
+            <li><a class="fw-bold fs-5 me-2" href='#skills'>Skills</a></li>
+            <!-- <li><a class="fw-bold fs-5 me-2" href="#contact">Contact</a></li> -->
+        </ul>
+    </div>   
+    <!-- Navbar end -->
+    <!-- Home section start -->
+    <section class="home" id="home">
+        <div class="container-lg">
+            <div class="row align-items-center align-items-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="assets/img/profile.jpg" class="rounded-circle mw-100" alt="profile img">
+                    </div>
+                </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-text">
+                    <p class="text-muted fs-2 mb-1">Hello I'm</p>
+                    <h1 class="text-uppercase text-danger fs-1 fw-bold">Software Engineer</h1>
+                    <h2 class="fs-1 fw-bold">Jimmy Chang</h2>
+                    <p class="text-muted mt-4 fs-5">Dynamic and detail-oriented Computer Engineering graduate student at Stony Brook University, with over 4 years of 
+                            hands-on experience, actively pursuing entry-level opportunities in Software Development, Machine Learning Engineering, 
+                            Computer Vision, Data Science, or Process Engineering. Leveraging specialized expertise in Python programming, with a 
+                            Focus on machine learning and computer vision.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex align-items-center">
+                        <a class="btn btn-primary fs-5 px-2 me-5" href="https://drive.google.com/file/d/17aVD3ndKiC3LBq6F6b24ZTVSBbZCijhG/view?usp=drive_link">My Resume</a>
+                            <div class="social-links">
+                            <a href="https://www.linkedin.com/in/jimmychangcyc/" class="me-3"><i class="fab fa-linkedin-in fs-2"></i></a>
+                            <a href="https://github.com/jimmycychang/" class="me-3"><i class="fab fa-github fs-2"></i></a>
+                            <a href="mailto:jimmy84616pk@gmail.com" class="me-3"><i class="fa-solid fa-envelope fs-2"></i></a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- Experience section start -->
+    <section class="experience py-1" id="experience">
+        <div class="container-lg py-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Experience</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row-md-6 mb-3">
+                    <div class="experience-item bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Graduate Teaching Assistant</h4>
+                        <h5 class="text-start">Stony Brook University</h5>
+                        <h6 class="text-end">Sep. 2023 - Dec. 2023</h6>
+                        <p class="text-muted">Conducted weekly office hours, offering in-depth assistance and constructive feedback to students working on 
+                                computer vision assignments and projects.</p>
+                        <p class="text-muted">Mentored and guided over 50 graduate students, contributing to the development of effective problem-solving skills 
+                                and fostering enriched learning outcomes within the field of computer vision.</p>
+                    </div>
+                </div>
+                <div class="row-md-6">
+                    <div class="experience-item bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Equipment Engineer</h4>
+                        <h5 class="text-start">Micron Technology Inc.</h5>
+                        <h6 class="text-end">Oct. 2019 - Jul. 2021</h6>
+                        <p class="text-muted">Resolved and analyzed existing designs of Lam's 2300 KIYO and FLEX dry etching equipment worth $200M, and 
+                                identified recurring issues. Developed and generated solutions to eliminate these errors, ensuring smooth workflows 
+                                and guaranteeing an annual production capacity of $6B</p>
+                        <p class="text-muted">Implemented daily workflow procedures effectively, communicating them clearly. Established standard operating 
+                                procedures (SOPs) to modify and repair technical flaws in equipment designs, resulting in a 10% increase in 
+                                productivity and a 75% decrease in work-related injuries.</p>
+                        <p class="text-muted">Coordinated with internal and external stakeholders to implement risk management strategies throughout all 
+                                production phases. Performed equipment inspections and generated technical documentation for support and 
+                                compliance reports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience section end -->
+
+    <!-- Education section start -->
+    <section class="education py-1" id="education">
+        <div class="container-lg py-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Education</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row-md-6 mb-3">
+                    <div class="education bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Stony Brook University</h4>
+                        <h5 class="text-start">Master of Science in Computer Engineering</h5>
+                        <h6 class="text-end">Aug. 2022 - May. 2024</h6>
+                        <p class="text-muted">Coursework: Machine Learning, Computer and Robot Vision, Computer Networks and Algorithms</p>
+                    </div>
+                </div>
+                <div class="row-md-6 mb-3">
+                    <div class="education bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">National Cheng Kung University</h4>
+                        <h5 class="text-start">Master of Science in Mechanical Engineering</h5>
+                        <h6 class="text-end">Sep. 2017 – Aug. 2019</h6>
+                    </div>
+                </div>
+                <div class="row-md-6 mb-3">
+                    <div class="education bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Chang Gung University</h4>
+                        <h5 class="text-start">Bachelor of Science in Mechanical Engineering</h5>
+                        <h6 class="text-end">Sep. 2013 – Jun. 2017</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education section end -->
+
+    <!-- Projects section start -->
+    <section class="projects py-1" id="projects">
+        <div class="container-lg py-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row-md-6 mb-3">
+                    <div class="projects bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Restaurant Website Development</h4>
+                        <h5 class="text-start">Python, JavaScript, HTML/CSS, SQL, Django, REST</h5>
+                        <h6 class="text-end">Nov. 2023 – Feb. 2024</h6>
+                        <p class="text-muted">Leveraged the Django web framework to build a robust backend, including multiple API endpoints, user registration 
+                            and authentication, and seamless integration with a MySQL database.</p>
+                        <p class="text-muted">Crafted sophisticated SQL queries to efficiently retrieve and manipulate restaurant menu items, reservations, and 
+                            customer data. Ensured the application's functionality and reliability through comprehensive unit testing and 
+                            utilization of the Insomnia tool.</p>
+                    </div>
+                </div>
+                <div class="row-md-6 mb-3">
+                    <div class="projects bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Image Processor and Computer Vision Tracking</h4>
+                        <h5 class="text-start">Python, OpenCV, Tkinter, MediaPipe</h5>
+                        <h6 class="text-end">May. 2023 – Aug. 2023</h6>
+                        <p class="text-muted">Developed a robust image processing pipeline capable of handling diverse image formats and performing over 20 
+                            operations, integrated with a user-friendly Tkinter GUI.</p>
+                        <p class="text-muted">Implemented a real-time brightness adjustment system using intuitive hand gestures, specifically two-finger 
+                            movements, to control display brightness.</p>
+                    </div>
+                </div>
+                <div class="row-md-6 mb-3">
+                    <div class="projects bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Apps Development</h4>
+                        <h5 class="text-start">Python, Java, Tkinter, Pygame</h5>
+                        <h6 class="text-end">Feb. 2023 – Apr. 2023</h6>
+                        <p class="text-muted">Developed a countdown timer application with features of start, pause, and reset functionality using the Tkinter GUI.
+                            Ensured the timer was highly functional for seamless execution on Windows system.</p>
+                        <p class="text-muted">Created a new-style snake game with Pygame, implementing complex game logic, including intelligent snake 
+                            movement, dynamic food generation, and robust collision detection, along with a responsive user interface.</p>
+                    </div>
+                </div>
+                <div class="row-md-6 mb-3">
+                    <div class="projects bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Real-Time Hand Gesture Recognition in Alphabets</h4>
+                        <h5 class="text-start">Python, TensorFlow, OpenCV</h5>
+                        <h6 class="text-end">Sep. 2022 – Dec. 2022</h6>
+                        <p class="text-muted">Generated 39,000 ASL alphabetic images and developed a CNN hand gesture recognition model using TensorFlow.</p>
+                        <p class="text-muted">Utilized machine learning algorithms and computer vision theories to create a real-time hand-tracking system for all 
+                            alphabets with webcams, achieving 100% accuracy in alphabet recognition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects section end -->
+
+    <!-- skills section start -->
+    <section class="skills py-1" id="skills">
+        <div class="container-lg py-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Skills</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-2">
+                    <div class="skills bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Languages</h4>
+                        <h5 class="text-start">Python, SQL, Java, PowerShell, HTML, CSS, JavaScript, MATLAB</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <div class="skills bg-light shadow-sm rounded">
+                        <h4 class="text-start">Frameworks and Tools</h4>
+                        <h5 class="text-start">Django, Git, REST, Bootstrap, TensorFlow, Keras, OpenCV, Pandas, NumPy, Matplotlib, SciPy, Scikit-image, 
+                            Tkinter, MySQL, SQLite3, Docker, GitHub, Visual Studio Code, Windows, Linux, Microsoft Azure, AWS</h5>
+                    </div>
+                </div>
+                <div class="row-md-6">
+                    <div class="skills bg-light shadow-sm p-4 rounded">
+                        <h4 class="text-start">Certifications and Publications</h4>
+                        <h5 class="text-start">Azure AI Fundamentals (AI-900) | Azure Fundamentals (AZ-900) | Meta Back-End Developer 
+                            Certificate | Google Cybersecurity Professional Certificate | Google Data Analytics Certificate
+                            Publications Academic Paper (2019) | Thesis (2019)</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section end -->
+
+    <!-- Contact section start -->
+    <!-- <section class="contact" id="contact">
+        <div class="banner">
+            <div class="container-lg py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">Contact Me</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form id="contact-form" action="assets/send_email.php" method="post">
+                            <div class="row">
+                                <div class="col-lg-6 mb-3">
+                                    <input type="text" name="name" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                    <input type="text" name="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-3">
+                                    <input type="text" name="subject" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" name="message" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-primary px-3">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Contact section end -->
+
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>

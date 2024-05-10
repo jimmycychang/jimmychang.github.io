@@ -6,39 +6,44 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.075)),url(background.jpg);
+    background-image: linear-gradient(rgba(188, 155, 110, 0.589), rgba(195, 98, 98, 0.674)),url(background.jpg);
     background-size: cover;
     background-position: center;
 }
-.navbar{
-    width: 75%;
+.header{
+    width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: rgba(191, 176, 139, 0.532);
+
 }
-.navbar ul li{
+
+.header ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     position: relative;
 }
-.navbar ul li a{
+.header ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #773f3f;
     text-transform: uppercase;
 }
-.navbar ul li::after{
+
+.header ul li a::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #009684c6;
+    background: #e64804c6;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -1px;
     transition: 0.5s;
 }
-.navbar ul li:hover:after{
-    width: 100%;
+
+.header ul li a:hover:after{
+    width: 90%;
 }
