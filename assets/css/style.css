@@ -11,25 +11,25 @@
     background-position: center;
 }
 .header{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(209, 238, 224, 0.663);
+    background-color: rgba(209, 235, 238, 0.321);
 
 }
 
 .header ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
     position: relative;
 }
 .header ul li a{
     text-decoration: none;
-    color: #773f3f;
+    color: #4c3636;
     text-transform: uppercase;
 }
 
